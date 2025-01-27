@@ -63,13 +63,11 @@ The storage account will be used for data storage in future assignments, serving
 
 ---
 
-## Submission
+## Expectation
 
-> Submit the following as proof of your work:
+> Upon completion, your output should look like the following image.
 
-**IMPORTANT:** Ensure your BU account information is visible in the top right corner of your screenshots for verification.
-
-1. **Screenshot of the Storage Account** within the resource group.
+1. **Storage Container inside the Storage Account** within the resource group.
    - <img src="../../images/hw1a/hw1-screenshot.png" alt="Screenshot" width="400">
 
 If you screen matches closely, understanding names may be different, and your user id in the top right corner of the portal instead of what's shown, you have completed HW1a, congrats!
