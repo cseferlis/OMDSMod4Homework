@@ -42,12 +42,12 @@ Ensure you have a Microsoft Azure student account. Instructions for setup of env
 3. **Clone the Repository**:
    - In the PowerShell pane, enter the following command to clone the course repository:
    ```bash
-   git clone https://github.com/cseferlis/OMDSMod4.git
+   git clone https://github.com/cseferlis/OMDSMod4Homework.git
    ```
 4. **Navigate to the Homework Directory**:
    - After cloning, switch to the main folder for the exercises:
    ```bash
-   cd OMDSMod4
+   cd OMDSMod4Homework
 
    cd  '<Homework Folder>'
 
