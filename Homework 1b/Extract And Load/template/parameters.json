@@ -1,0 +1,45 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscription": {
+            "value": "@subId"
+        },
+        "name": {
+            "value": "@dfName"
+        },
+        "version": {
+            "value": "V2"
+        },
+        "vNetEnabled": {
+            "value": false
+        },
+        "publicNetworkAccess": {
+            "value": true
+        },
+        "privateEndpoints": {
+            "value": []
+        },
+        "gitConfigureLater": {
+            "value": true
+        },
+        "tagsByResource": {
+            "value": {}
+        },
+        "userAssignedIdentitiesStr": {
+            "value": "{\"type\": \"SystemAssigned,UserAssigned\", \"userAssignedIdentities\": {\"\": {}"
+        },
+        "vaultBaseUrl": {
+            "value": ""
+        },
+        "keyName": {
+            "value": ""
+        },
+        "keyVersion": {
+            "value": ""
+        },
+        "enableCMK": {
+            "value": false
+        }
+    }
+}
