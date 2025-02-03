@@ -65,21 +65,21 @@ Ensure you have a Microsoft Azure student account. Instructions for setup of env
 
 7. **Deploying Resources in Azure**:
 
-This command will use a predefined template to create resources as required for the assignment.
+- This command will use a predefined template to create resources as required for the assignment.
 
-      - Use the following command, replacing placeholders marked with <resource-group-name>, <path-to-template.json>, and <path-to-parameters.json> using the actual resource group name, template, and parameter file paths for your environment:
+	- Use the following command, replacing placeholders marked with <resource-group-name>, <path-to-template.json>, and <path-to-parameters.json> using the actual resource group name, template, and parameter file paths for your environment:
       
-      ```bash
-      az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
-      ```
+	```bash
+	az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
+	```
       
-      For Example:
+	- For Example:
       
-      ```bash
-      az deployment group create --resource-group cbsomdsrg --template-file ./template/template.json --parameters ./template/parameters.json
-      ```
+	```bash
+	az deployment group create --resource-group cbsomdsrg --template-file ./template/template.json --parameters ./template/parameters.json
+	```
       
-   > Note: Your Resource Group should be the name of the one entered from the one you create in Homework 1a. This will ensure you always deploy resources to the same region as what is specified with the Resource Group. This is handled within the template.json file.
+	> Note: Your Resource Group should be the name of the one entered from the one you create in Homework 1a. This will ensure you always deploy resources to the same region as what is specified with the Resource Group. This is handled within the template.json file.
 
    - Troubleshooting:
 	   -	If you encounter an error stating that you are in the wrong subscription, you need to check and switch to the correct one.
