@@ -32,19 +32,21 @@ Ensure you have a Microsoft Azure student account. Instructions for setup of env
 > For this course, you will use the “Azure for Students” offer provided by Microsoft. This offer allows for a $100 credit that can be replenished once a year as long as a student email address is being used. You will be expected to manage your budget. By adhering closely to the instructions outlined in the homework assignments, you will remain within the $100 credit limit. However, any expenses incurred beyond this allocation will be your responsibility.  
 
 1. **Sign In**: Log into the [Azure Portal](https://portal.azure.com) with your student account.
-2. **Access Cloud Shell**: 
+   
+3. **Access Cloud Shell**: 
    - Use the **[>_]** button next to the search bar to open a new Cloud Shell.
    - Select **PowerShell** as the environment, creating storage if prompted. Choose the "Azure for Students" subscription.
    - You can resize the Cloud Shell pane or minimize it using the controls on the top right.
 
     > **Note**: You may use **Bash** or **PowerShell** by changing the environment in the Cloud Shell pane's dropdown.
 
-3. **Clone the Repository**:
+4. **Clone the Repository**:
    - In the PowerShell pane, enter the following command to clone the course repository:
    ```bash
    git clone https://github.com/cseferlis/OMDSMod4Homework.git
    ```
-4. **Navigate to the Homework Directory**:
+   
+5. **Navigate to the Homework Directory**:
    - After cloning, switch to the main folder for the exercises:
    ```bash
    cd OMDSMod4Homework
@@ -53,25 +55,40 @@ Ensure you have a Microsoft Azure student account. Instructions for setup of env
 
    cd '<Homework Name Folder>'
    ```
-5. **Running Setup Scripts**:
+   - Tip: If you’re unsure what folders are available, use the ```ls``` command to list the contents of the current directory.
+
+6. **Running Setup Scripts**:
    - Navigate to the specific `homework` directory you’re working on and run the setup script to generate necessary files:
    ```bash
    bash ./formTemplate.sh
    ```
 
-6. **Deploying Resources in Azure**:
+7. **Deploying Resources in Azure**:
 
 This command will use a predefined template to create resources as required for the assignment.
 
-   - Use the following command, replacing placeholders marked with <resource-group-name>, <path-to-template.json>, and <path-to-parameters.json> using the actual resource group name, template, and parameter file paths for your environment:
-   ```bash
-   az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
-   ```
-   For Example:
-   ```bash
-   az deployment group create --resource-group cbsomdsrg --template-file ./homework1/azuredeploy.json --parameters ./homework1/azuredeploy.parameters.json
-   ```
-> Note: Your Resource Group should be the name of the one entered from the one you create in Homework 1a. This will ensure you always deploy resources to the same region as what is specified with the Resource Group. This is handled within the template.json file.
+      - Use the following command, replacing placeholders marked with <resource-group-name>, <path-to-template.json>, and <path-to-parameters.json> using the actual resource group name, template, and parameter file paths for your environment:
+      ```bash
+      az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
+      ```
+      For Example:
+      ```bash
+      az deployment group create --resource-group cbsomdsrg --template-file ./template/template.json --parameters ./template/parameters.json
+      ```
+   > Note: Your Resource Group should be the name of the one entered from the one you create in Homework 1a. This will ensure you always deploy resources to the same region as what is specified with the Resource Group. This is handled within the template.json file.
+
+   - Troubleshooting:
+	   -	If you encounter an error stating that you are in the wrong subscription, you need to check and switch to the correct one.
+	   -	Run the following commands in PowerShell to list your available subscriptions:
+      ```bash
+      az account list
+      ```
+      - Look for the Azure for Students subscription ID.
+   	- Once you have the correct subscription ID, set it using:
+      ```bash
+      az account set --subscription "<Your Subscription ID>"
+      ```
+      - Then, retry the deployment command.
 
 ---
 
