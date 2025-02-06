@@ -87,12 +87,12 @@ Ensure you have a Microsoft Azure student account. Instructions for setup of env
       ```bash
       az account list
       ```
-      - Look for the Azure for Students subscription ID.
-   	- Once you have the correct subscription ID, set it using:
+      	- Look for the Azure for Students subscription ID.
+      	- Once you have the correct subscription ID, set it using:
       ```bash
       az account set --subscription "<Your Subscription ID>"
       ```
-      - Then, retry the deployment command.
+      	- Then, retry the deployment command.
 
 ---
 
