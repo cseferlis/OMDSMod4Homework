@@ -31,6 +31,40 @@ az deployment group create --resource-group <resource-group-name> --template-fil
    - Login: omdsmod4admin
    - Password: omdsmod4password013!
 
+**Troubleshooting SQL Database & Server Deployment**
+   - If you encounter an error related to region or location, you may need to manually create the SQL Database and Server. Follow these steps to ensure proper setup with minimal cost:
+   
+	1. **Resource Group**:
+      - Use the Resource Group you created for Homework 1a.
+      
+	2. **Database**:
+      - Set name as `<initials>mod4db`.
+      
+	3. **Server**:
+      - Set name as `<initials>mod4server`.
+      - Choose the same Region as your Resource Group.
+      - Enable both SQL and Microsoft Entra authentication. (You may choose your own)
+        - **Login ID**: `omdsmod4admin`
+        - **Password**: `omdsmod4password013!`
+        - Add yourself as an admin.
+        
+	4. **Configuration Settings**:
+      - **SQL Elastic Pool**: Do not enable.
+      - **Workload Environment**: Select **“Development”**.
+      - **Compute Tier**: Choose **“General Purpose - Serverless”**.
+      - **Estimated Cost**: Approximately **$5/month**.
+      - **Backup Storage Redundancy**: Select **“Locally Redundant Storage”**.
+      
+	5. Click **“Review + Create”** to finalize the setup.
+   
+	6. **Deployment**: The database creation may take **5-10 minutes**.
+   
+	7. **Post-Deployment Steps**:
+      - Go to **SQL Server** > **Security** > **Networking**.
+      - **Allow Public Access**:
+         - Under **Firewall rules**, click **“Add your client IPv4 address”**.
+         - Under **Exceptions**, check **“Allow Azure services and resources to access this server”**.
+
 ### Step 2: Create Your Database Table
 Use the `Complaints Reference File` to set up your table attributes with the correct data types. It is recommended to use `NVARCHAR` for text columns to handle Unicode characters. The reference file specifies the lengths of each of the attributes (columns) when defining your database table.
 
