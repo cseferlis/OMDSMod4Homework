@@ -14,7 +14,7 @@ Using your existing Data Factory, you will:
 1. **Transform**: Convert the `DateA` column datatype from text to date.
 2. **Stage**: Load the transformed data into a database table named `<initials>Complaints` within a SQL Server database.
 
-> **Hint** Download the Homework1c.pdf file from the ‘Transforming and Staging’ folder in this repository and review its contents.
+> **Hint**: Download the Homework1c.pdf file from the ‘Transforming and Staging’ folder in this repository and review its contents.
 
 ## Steps to Complete Homework 1c
 
@@ -26,6 +26,10 @@ Once again, you should use the `bash fromTemplate.sh` script from the [top-level
 ```azurecli-interactive
 az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
 ```
+
+- SQL Database + Server Credentials:
+   - Login: omdsmod4admin
+   - Password: omdsmod4password013!
 
 ### Step 2: Create Your Database Table
 Use the `Complaints Reference File` to set up your table attributes with the correct data types. It is recommended to use `NVARCHAR` for text columns to handle Unicode characters. The reference file specifies the lengths of each of the attributes (columns) when defining your database table.
