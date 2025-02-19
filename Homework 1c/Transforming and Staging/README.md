@@ -69,7 +69,9 @@ Output the results to a file and save it as a PDF for submission.
 1. **Screenshot of Query Execution in Azure SQL Database** 
    - <img src="../../images/hw1c/hw3-screenshot.png" alt="Screenshot" width="400">
 
-2. **PDF of SQL Query Output** Typically you can expect approximately a couple hundred records added per day, so if you are getting more, check your query, else, if you have zero, you may need to go back further with your GETDATE command.
+2. **PDF of SQL Query Output**
+
+Typically you can expect approximately a couple hundred records added per day, so if you are getting more, check your query, else, if you have zero, you may need to go back further with your GETDATE command.
 
 Save the screenshots as `.png` or `.jpg` files and upload them through the course submission portal for Homework 1c. For a further explanation on how to submit your assignment on Gradescope, refer to the Blackboard page or request support from your Learning Facilitator.
 
