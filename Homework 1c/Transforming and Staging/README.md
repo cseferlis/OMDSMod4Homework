@@ -73,7 +73,7 @@ Output the results to a file and save it as a PDF for submission.
 1. **Screenshot of Query Execution in Azure SQL Database** 
    - <img src="../../images/hw1c/hw3-screenshot.png" alt="Screenshot" width="400">
 
-2. **PDF of SQL Query Output**
+2. **PDF or CSV File of the SQL Query Output**
 
 Typically you can expect approximately a couple hundred records added per day, so if you are getting more, check your query, else, if you have zero, you may need to go back further with your GETDATE command.
 
