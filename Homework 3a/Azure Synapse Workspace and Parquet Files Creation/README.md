@@ -6,6 +6,8 @@ In this assignment, we are getting back to our NHTSA data where you will begin w
 
 ## Tasks
 
+---
+
 ### 1. Upgrade Your Storage Account
 
 To link your **Synapse Workspace** to a storage account, it may need to be **upgraded to Azure Data Lake Storage (ADLS) Gen 2** if it wasn't set up during the initial deployment. If your storage account is not already upgraded, follow these steps:
@@ -16,6 +18,8 @@ To link your **Synapse Workspace** to a storage account, it may need to be **upg
 4. **Validate your account** to check for any features that may not be supported.
 5. Once validation is complete, **start the upgrade** process.
 6. After the upgrade, confirm that **Hierarchical Namespace** is enabled under **Configuration**.
+
+---
 
 ### 2. Convert the NHTSA TXT File to Parquet Format
 
@@ -35,6 +39,8 @@ Use **Azure Data Factory (ADF) Data Flows** to perform the following steps:
    - Some manufacturer names end with a dot (.), this is not allowed in your storage accounts, use filters to filter them out using filter operator in data flow.
    - Refer to the [Complaints Reference File](https://static.nhtsa.gov/odi/ffdd/cmpl/Import_Instructions_Excel_All.pdf) for field details.
 
+---
+
 ### 3. Create Your Synapse Workspace
 
 Set up your **Azure Synapse Workspace** by following these steps:
@@ -47,9 +53,13 @@ Set up your **Azure Synapse Workspace** by following these steps:
    - In the Data section of the Synapse Workspace, add your storage account as a linked service if not already connected.
    - Ensure the primary storage account is correctly set up as ADLS Gen 2.
 
-### 4. Utilize the Created Parquet File
+---
+
+### 4. Verify the Created Parquet File
 
 Ensure the `.parquet` files created from the NHTSA data are **accessible in your Synapse Workspace**. This will be essential for the **subsequent homework**.
+
+---
 
 ## Expected Output
 
