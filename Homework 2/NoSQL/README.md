@@ -21,10 +21,10 @@ For this assignment, you will use the TMDB dataset for 5000 movies. The cleaned 
      
    - To deploy resources run the template from the repository using the following command from the Azure CLI, remembering to replace the resource group, template and parameters for your environment:
      ```sh
-     bash ./formtemplate.sh
+     bash ./formTemplate.sh
      ```
      ```sh
-     az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters @<path-to-parameters.json>
+     az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
      ```
 
 2. **Create the Database and Container**:
