@@ -76,7 +76,7 @@ For this assignment, you will use the TMDB dataset for 5000 movies. The cleaned 
 
    - <img src="../../images/hw2/hw4-screenshot2.png" alt="Screenshot" width="400">
 
-Save the screenshots as `.png` or `.jpg` files and upload them through the course submission portal for Homework 1.
+Save the screenshots as `.png` or `.jpg` files and upload them through the course submission portal for Homework 2.
 
 ---
 
