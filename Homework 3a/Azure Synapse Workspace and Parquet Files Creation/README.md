@@ -80,7 +80,7 @@ If you run into issues while completing the assignment, consider these common **
 - **Issue:** Getting an error related to `containerDeleteRetentionPolicy` when validating the upgrade.  
 - **Fix:**  
   - Navigate to **Data management** > **Data protection** in your storage account.
-  - Disable the **Container delete retention policy**.
+  - Disable the **Container delete retention policy** (everything).
   - Save the changes and retry the validation process.
 
 ### 2. **Setting Up Filter**
