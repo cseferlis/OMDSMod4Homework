@@ -63,7 +63,7 @@ Create an external table in Azure Synapse, use Synapse SQL scripts to read `.par
     #### 🔹 Query Requirements:
     - **Car Model:** 'F-150'
     - **Model Year:** Between '1990' and '2010'
-    - **Crash Indicator:** Only crashes (`Crash = 'Y'`)
+    - **Crash Indicator:** Only crashes (`Crash = 'Y'` or `Crash = 'True'`)
     - **Aggregate:** Count crashes per year
     - **Sort:** Ascending by year
    
