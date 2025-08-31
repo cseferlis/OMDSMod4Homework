@@ -19,6 +19,13 @@ For this assignment, you will be working with the National Highway Traffic Safet
 
 > **Hint** Download the Homework1b.pdf file from the ‘Extract And Load’ folder in this repository and review its contents.
 
+## Helpful Links and Documentation
+Invariably every semester we have students who are concerned about the lack of in-class instruction of how to use Microsoft Azure. This is by design. You are pursuing a Master's Degree in Data Science, and Data Engineering and Management are a considerable part of ensuring clean and trusted data. You are professionals who have certainly been put into a new job/role that requires you to learn new tools to do your job effectively. That the approach of this class. Certainly the LFs are here to give assistance if you are stuck, but they will not give you the answers to the homework. If the documentation does not provide enough assistance, I recommend using your favorite LLM of choice to ask the questions where you are stuck. The LFs will know if you have done the work to find the solution as they have taken the class and built the material, so do the work first and use them if you are truly stuck. For each assignment, there will be helpful resources you can use to successfully complete the homework. Without a doubt, the students who work through the problems on their own absolutely appreciate the process and gain significantly more experience by doing so. Learning isn't a process and we can't learn if every answer is handed to us by ChatGPT, myself or LFs. For this assignment:
+   - Follow this guide to learn about Azure Data Factory: [Getting Started with Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory)
+   - Treat the data source as an HTTPS-linked dataset within ADF. [HTTP endpoint in Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/connector-http?tabs=data-factory)
+   - Reference: [How to Create a Storage Account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
+   - Follow tutorials and documentation from Microsoft for guidance on data transformation and extraction. You can start with this [Quickstart](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-hello-world-copy-data-tool)
+     
 ## Instructions
 
 ### Step-by-Step Guide
