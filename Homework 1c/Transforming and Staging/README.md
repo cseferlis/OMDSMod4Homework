@@ -16,6 +16,17 @@ Using your existing Data Factory, you will:
 
 > **Hint**: Download the Homework1c.pdf file from the ‘Transforming and Staging’ folder in this repository and review its contents.
 
+## Reference Documents and Tools
+Navigating the Azure portal and specific interfaces for each service can be a little tricky, especially if you don't have experiences with databases or cloud services. Below are many resources that will help with each activity you will need to perform to complete the assignment. If you don't have experience in these areas, please review these before getting started on the final portion of the assignment.
+
+- [Getting Started with Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory)
+- [Creating a Storage Account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
+- [Creating a Database in Azure SQL Server Using Your Existing SQL Server](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
+- [Creating a Table in an Azure SQL Database](https://www.edureka.co/community/62364/how-to-create-table-in-azure-sql-database)
+- [Complaints Data File](https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip)
+- [Complaints Reference File](https://static.nhtsa.gov/odi/ffdd/cmpl/Import_Instructions_Excel_All.pdf)
+- [Copy Tool](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview)
+
 ## Steps to Complete Homework 1c
 
 > For this course, you will use the “Azure for Students” offer provided by Microsoft. This offer allows for a $100 credit that can be replenished once a year as long as a student email address is being used. You will be expected to manage your budget. By adhering closely to the instructions outlined in the homework assignments, you will remain within the $100 credit limit. However, any expenses incurred beyond this allocation will be your responsibility.  
@@ -85,16 +96,6 @@ WHERE DATEA = CONVERT(Date, GETDATE() - 1)
 > **Note**: The "GETDATE() - 1" is a SQL command specifying Today's date -1 day, aka yesterday. However, if your latest file download is prior to today, or happens to fall on a weekend, you will have to change the "-1" to the most recent day where records exist in the source dataset. (-2, -5, -7, etc for the number of days back)
 
 Output the results to a file and save it as a PDF for submission.
-
-## Reference Documents and Tools
-- [Getting Started with Azure Data Factory](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory)
-- [Creating a Storage Account](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?tabs=azure-portal)
-- [Creating a Database in Azure SQL Server Using Your Existing SQL Server](https://learn.microsoft.com/en-us/azure/azure-sql/database/single-database-create-quickstart?view=azuresql&tabs=azure-portal)
-- [Creating a Table in an Azure SQL Database](https://www.edureka.co/community/62364/how-to-create-table-in-azure-sql-database)
-- [Complaints Data File](https://static.nhtsa.gov/odi/ffdd/cmpl/FLAT_CMPL.zip)
-- [Complaints Reference File](https://static.nhtsa.gov/odi/ffdd/cmpl/Import_Instructions_Excel_All.pdf)
-- [Copy Tool](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview)
-- [Data Flow](https://docs.microsoft.com/en-us/azure/data-factory/concepts-data-flow-overview)
 
 ---
 
