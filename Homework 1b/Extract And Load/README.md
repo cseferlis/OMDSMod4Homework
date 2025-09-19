@@ -31,7 +31,7 @@ Invariably every semester we have students who are concerned about the lack of i
 ### Step-by-Step Guide
 1. **Set Up Azure Data Factory**:
    - Ensure that you have created your Azure account and storage account in order to create an Azure Data Factory instance.
-   - You should use the `bash formTemplate.sh` script from the [top-level ReadMe.md file](https://github.com/cseferlis/OMDSMod4/blob/main/README.md) for creating your Data Factory, using the following command to deploy resources, remembering to replace your resource group, template and parameter details as with Homework 1b:
+   - You should use the `bash formTemplate.sh` script from the [top-level ReadMe.md file](https://github.com/cseferlis/OMDSMod4Homework/blob/main/README.md) for creating your Data Factory, using the following command to deploy resources, remembering to replace your resource group, template and parameter details as with Homework 1b:
 
    ```azurecli-interactive
    az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters @<path-to-parameters.json>
