@@ -62,7 +62,7 @@ As discussed, we will be using Complaints Data from NHTSA for the majority of th
 - **Complaints Reference File**: [Reference Document](https://static.nhtsa.gov/odi/ffdd/cmpl/Import_Instructions_Excel_All.pdf)
 
 ## Using Deployment Template
-For any resource deployment, use the following command. Replace placeholders with your specific resource group and file paths as discussed in the [Top-Level Readme File. ](https://github.com/cseferlis/OMDSMod4/blob/main/README.md) Be sure to Navigate to your specific homework folder, in this case "Homework 1b" and the folder containing the "formTemplate.sh" file to ensure proper deployment of resources.
+For any resource deployment, use the following command. Replace placeholders with your specific resource group and file paths as discussed in the [Top-Level Readme File. ](https://github.com/cseferlis/OMDSMod4Homework/blob/main/README.md) Be sure to Navigate to your specific homework folder, in this case "Homework 1b" and the folder containing the "formTemplate.sh" file to ensure proper deployment of resources.
 
 ```azurecli-interactive
 az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
