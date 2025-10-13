@@ -68,6 +68,12 @@ For any resource deployment, use the following command. Replace placeholders wit
 az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
 ```
 
+If you see "The content for this response was already consumed" error, run the following command:
+```azurecli-interactive
+az account set --subscription "Azure for Students"
+```
+Then run your deployment again.
+
 ---
 
 ## Expectation
