@@ -44,7 +44,7 @@ az account set --subscription "Azure for Students"
 ```
 Then run your deployment again.
 
-SQL Database + Server Credentials:
+> **NOTE** - SQL Database + Server Credentials:
    - Login: omdsmod4admin
    - Password: omdsmod4password013!
 
