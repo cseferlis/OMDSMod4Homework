@@ -26,6 +26,11 @@ For this assignment, you will use the TMDB dataset for 5000 movies. The cleaned 
      ```sh
      az deployment group create --resource-group <resource-group-name> --template-file <path-to-template.json> --parameters <path-to-parameters.json>
      ```
+   - If you see "The content for this response was already consumed" error, run the following command:
+      ```azurecli-interactive
+      az account set --subscription "Azure for Students"
+      ```
+      Then run your deployment again.
 
 2. **Create the Database and Container**:
    - **Database ID**: `omdsmod4`
