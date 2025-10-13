@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Set the subscription to 'Azure for Students'
+az account set --subscription "Azure for Students"
+
 # Extract the 'id' field using jq from the output of `az account show`
 subId=$(az account show | jq -r '.id')
 
