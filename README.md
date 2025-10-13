@@ -82,7 +82,7 @@ Ensure you have a Microsoft Azure student account. Instructions for setup of env
 	> Note: Your Resource Group should be the name of the one entered from the one you create in Homework 1a. This will ensure you always deploy resources to the same region as what is specified with the Resource Group. This is handled within the template.json file.
 
    - Troubleshooting:
-	   -	If you encounter an error stating that you are in the wrong subscription, you need to check and switch to the correct one.
+	   -	If you encounter an error stating that you are in the wrong subscription, you need to check and switch to the correct one. (This includes the error message: "The content for this response was already consumed")
 	   -	Run the following commands in PowerShell to list your available subscriptions:
       ```bash
       az account list
