@@ -6,10 +6,10 @@
             "value": "@dbName"
         },
         "location": {
-            "value": "eastus2"
+            "value": "northcentralus"
         },
         "locationName": {
-            "value": "East US 2"
+            "value": "North Central US"
         },
         "defaultExperience": {
             "value": "Core (SQL)"
