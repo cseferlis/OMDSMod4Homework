@@ -19,7 +19,7 @@
             "type": "string"
         },
         "location": {
-            "defaultValue": "[resourceGroup().location]",
+            "defaultValue": "northcentralus",
             "type": "string"
         },
         "tagsByResource": {
