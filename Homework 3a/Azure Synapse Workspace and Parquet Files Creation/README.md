@@ -4,6 +4,15 @@
 
 In this assignment, we are getting back to our NHTSA data where you will begin working with Azure Synapse Analytics and utilize its SQL Serverless pools powered by a Massively Parallel Processing (MPP) engine. Your task is to prepare your data by converting the NHTSA Complaints File into a `.parquet` format suitable for distributed systems and datasets (sharding). This process simulates the preparation needed to connect to data using Polybase and read directly from the Data Lake. In **Homework 3b**, you will connect to this data as an external table. The main objective of this assignment is to create an **Azure Synapse Workspace** and partition `.parquet` files by manufacturer name.
 
+## Reference Documents and Tools
+Navigating the Azure portal and specific interfaces for each service can be a little tricky, especially if you don't have experiences with databases or cloud services. Below are many resources that will help with each activity you will need to perform to complete the assignment. If you don't have experience in these areas, please review these before getting started on the final portion of the assignment. Be sure to read this entire assignment as you will run into issues that are addressed at the bottom.
+
+- [Tutorial: Write to a Data Lake](https://learn.microsoft.com/en-us/azure/data-factory/tutorial-data-flow-write-to-lake)
+- More about [Polybase (Data Virtualization)](https://learn.microsoft.com/en-us/sql/relational-databases/polybase/polybase-guide?view=sql-server-ver16)
+- More about [Parquet Files](https://www.databricks.com/glossary/what-is-parquet)
+
+Ensure all steps are completed accurately and verify that the `.parquet` files are correctly partitioned and accessible from your Synapse Workspace. Reach out to your **LF (Learning Facilitator)** if you have any questions or need further assistance.
+
 ## Tasks
 
 ---
