@@ -2,11 +2,10 @@
 
 ## Objective
 The primary goal of this homework is to introduce you to **Microsoft Power BI**, focusing on its fundamental tools and techniques for data visualization. Upon completing this assignment, you'll have acquired essential data visualization skills, a core competency for every data analyst.
-In Homework 3c, you'll connect Power BI to your Azure Synapse environment, enabling you to visualize the datasets previously explored in Homework 3a and 3b.
+In Homework 3c, you'll connect Power BI to your Azure Synapse environment, enabling you to visualize the datasets previously explored in Homework 3a and 3b. The Power BI Desktop application is not supported on MacOS. Be sure to follow instructions below for using a Mac with the Power BI environment.
 
-## Tasks
-
----
+## Reference Documents and Tools
+Navigating the Azure portal and specific interfaces for each service can be a little tricky, especially if you don't have experiences with databases or cloud services. Below are many resources that will help with each activity you will need to perform to complete the assignment. If you don't have experience in these areas, please review these before getting started on the final portion of the assignment. Be sure to read this entire assignment as you will run into issues that are addressed at the bottom. 
 
 ### 1. Accessing Power BI
 #### Windows Users
@@ -25,13 +24,21 @@ In Homework 3c, you'll connect Power BI to your Azure Synapse environment, enabl
       - <img src="../../images/hw3c/2.png" alt="Folder Redirection Example 2" width="400">
 
 #### Optional
-  - You’re welcome to use the online version of Power BI if you prefer: [Online Power BI](https://app.powerbi.com/)
+  - You’re welcome to use the online version of Power BI if you prefer, but warning it does have some limitations: [Online Power BI](https://app.powerbi.com/)
 
 ---
 ---
 
 ### 2. Create a Power BI Report
 Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-dimensional-model-report) if you need detailed guidance.
+
+---
+
+### ⚠️ **IMPORTANT REMINDER:**  
+  **Save your work frequently!**  
+  Azure Virtual Desktop sessions will timeout after a period of inactivity, and **any unsaved work will be permanently lost**.
+
+## Tasks
 
 ---
 
@@ -95,9 +102,7 @@ Design your interactive Power BI dashboard by following these requirements:
     - Consider adding multiple pages or additional visualizations for deeper analysis.  
     - Be creative and explore the interactive possibilities in Power BI.
 
-### ⚠️ **IMPORTANT REMINDER:**  
-  **Save your work frequently!**  
-  Azure Virtual Desktop sessions will timeout after a period of inactivity, and **any unsaved work will be permanently lost**.
+
 
 ---
 ---

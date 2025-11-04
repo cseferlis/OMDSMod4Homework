@@ -5,6 +5,14 @@ In Homework 3b, you will connect to the `.parquet` file created in Homework 3a, 
 ## Objective
 Create an external table in Azure Synapse, use Synapse SQL scripts to read `.parquet` files, and visualize the queried data.
 
+## Reference Documents and Tools
+Navigating the Azure portal and specific interfaces for each service can be a little tricky, especially if you don't have experiences with databases or cloud services. Below are many resources that will help with each activity you will need to perform to complete the assignment. If you don't have experience in these areas, please review these before getting started on the final portion of the assignment. Be sure to read this entire assignment as you will run into issues that are addressed at the bottom.
+
+ - Reference: [Azure ACL Documentation](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-acl-azure-portal).
+- Use the [Azure Synapse External Table Documentation](https://learn.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables?tabs=hadoop) as a reference if needed.
+- As you finish your setup, and want to query your data, refer to the [Complaints Reference File](https://static.nhtsa.gov/odi/ffdd/cmpl/Import_Instructions_Excel_All.pdf) to find the correct columns.
+
+
 ## Tasks
 
 ---
