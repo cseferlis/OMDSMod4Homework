@@ -43,9 +43,9 @@ Use **Azure Data Factory (ADF) Data Flows** to perform the following steps:
 2. **Configure the Sink**:
    - The output format must be `.parquet`.
    - Linked Service: `Azure Data Lake Storage`.
-   - Go to the 'Mapping' section under the sink settings and update the output column names accordingly.
+   - <mark>**IMPORTANT STEP:**</mark> Go to the 'Mapping' section under the sink settings and update the output column names accordingly.
       - Ensure that the column names match those specified in the [Complaints Reference File](https://static.nhtsa.gov/odi/ffdd/cmpl/Import_Instructions_Excel_All.pdf)
-
+   
 3. **Partition the Parquet Files**:
    - Partition the `.parquet` files by the manufacturer name.
    - Some manufacturer names end with a dot (.), this is not allowed in your storage accounts, use filters to filter them out using filter operator in data flow.
