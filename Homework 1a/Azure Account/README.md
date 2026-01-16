@@ -52,7 +52,7 @@ The storage account will be used for data storage in future assignments, serving
 
 ### Storage Account Requirements:
 - **Name**: Choose a unique name for your storage account, such as `StudentDataStorage`.
-- **Region**: Select the same region as your resource group: `West US 2 (westus2)`. **Note: You will want to have all of your resources (services) deployed in the same reason whenever possible as this will save Data Egress costs.
+- **Region**: Select the same region as your resource group: `West US 2 (westus2)`. **Note: You will want to have all of your resources (services) deployed in the same region whenever possible as this will save Data Egress costs.
 - **Performance**: Choose **Standard**.
 - **Replication**: Select **Locally-redundant storage (LRS)**, which is sufficient for this course.
 
