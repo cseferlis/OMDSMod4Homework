@@ -52,6 +52,8 @@ Invariably every semester we have students who are concerned about the lack of i
    - Use another ADF's copy activity to unzip the file within the pipeline. Ensure that the extracted content is in `.txt` format and stored in your Azure Storage account.
    - Follow tutorials and documentation from Microsoft for guidance on data transformation and extraction. You can start with this [Quickstart](https://learn.microsoft.com/en-us/azure/data-factory/quickstart-hello-world-copy-data-tool)
 
+> **Hint:** The Sink file in your zip copy data obtained after step 4 must be binary but you cannot convert a source binary file into a sink .txt file directly. 
+
 ## Reference Files and Tutorials
 
 ### Source data file information
