@@ -6,7 +6,7 @@
             "value": "@subId"
         },
         "name": {
-            "value": "mod4datafactory01"
+            "value": "@dfName"
         },
         "version": {
             "value": "V2"
