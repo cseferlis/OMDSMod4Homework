@@ -89,6 +89,7 @@ Use the `Complaints Reference File` to set up your table attributes with the cor
 1. Use Azure Data Factory to create a pipeline that includes:
    - **Transformation**: Convert the `DateA` column from text to a date (not datetime) format.
    - **Loading**: Insert the data into the `<initials>Complaints` table.
+> **Hint**: Make sure that source and sink datatypes are same, if they are not you can change the datatype from JSON view of the code see {} on top right.
 
 ### Step 4: Query and Export Results
 After loading the data, run the following query in your SQL Server, making sure to replace the table name with the name you created for your table in your database:
@@ -99,7 +100,7 @@ FROM <cbsComplaints>
 WHERE DATEA = CONVERT(Date, GETDATE() - 1)
 ```
 
-> **Note**: The "GETDATE() - 1" is a SQL command specifying Today's date -1 day, aka yesterday. However, if your latest file download is prior to today, or happens to fall on a weekend, you will have to change the "-1" to the most recent day where records exist in the source dataset. (-2, -5, -7, etc for the number of days back)
+> **Note**: The "GETDATE() - 1" is a SQL command specifying Today's date -1 day, aka yesterday. However, if your latest file download is prior to today, or happens to fall on a weekend, you will have to change the "-1" to the most recent day where records exist in the source dataset. (-2, -5, -7, etc for the number of days back). To get the lastest date in your table try max() aggregation function.
 
 Output the results to a file and save it as a PDF for submission.
 
