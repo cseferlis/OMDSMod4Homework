@@ -100,7 +100,7 @@ FROM <cbsComplaints>
 WHERE DATEA = CONVERT(Date, GETDATE() - 1)
 ```
 
-> **Note**: The "GETDATE() - 1" is a SQL command specifying Today's date -1 day, aka yesterday. However, if your latest file download is prior to today, or happens to fall on a weekend, you will have to change the "-1" to the most recent day where records exist in the source dataset. (-2, -5, -7, etc for the number of days back). To get the lastest date in your table try max() aggregation function.
+> **Note**: The "GETDATE() - 1" is a SQL command specifying Today's date -1 day, aka yesterday. However, if your latest file download is prior to today, or happens to fall on a weekend, you will have to change the "-1" to the most recent day where records exist in the source dataset. (-2, -5, -7, etc for the number of days back). To get the newest date in your table try max() aggregation function.
 
 Output the results to a file and save it as a PDF for submission.
 
