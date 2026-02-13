@@ -113,7 +113,7 @@ Output the results to a file and save it as a PDF for submission.
 **IMPORTANT:** Ensure your BU account information is visible in the top right corner of your screenshots for verification.
 
 1. **Screenshot of Query Execution in Azure SQL Database** 
-   - <img src="../../images/hw1c/hw3-screenshot.png" alt="Screenshot" width="400">
+   - <img src="../../images/hw1c/IMG_0069.jpeg.png" alt="Screenshot" width="400">
 
 2. **PDF or CSV File of the SQL Query Output**
 
