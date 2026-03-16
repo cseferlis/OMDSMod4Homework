@@ -50,9 +50,9 @@
                 "minimalTlsVersion": "Tls12",
                 "enableMultipleWriteLocations": false,
                 "capabilities": [],
-                "enableFreeTier": false,
+                "enableFreeTier": true,
                 "capacity": {
-                    "totalThroughputLimit": 4000
+                    "totalThroughputLimit": 400
                 }
             },
             "tags": {
