@@ -122,6 +122,7 @@ If you run into issues while completing the assignment, consider these common **
 - **Issue:** Partitioning based on column data is not working.
 - **Fix:**  
   - Set **"Source" to "Single Partition"** in the **Optimize settings**.
+       - If Single Partition gives an error Try **"Use current partitioning"**
   - There are **two partitioning options** for sink in Azure Data Factory:
     - **File Name as Column Data** → **Files** named after the **Manufacturer**. → **This is Correct**
     - **Set Partitioning - Key** → **Folders** named after the **Manufacturer**. → This is Incorrect
