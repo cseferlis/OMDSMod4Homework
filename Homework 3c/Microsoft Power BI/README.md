@@ -24,7 +24,7 @@ Navigating the Azure portal and specific interfaces for each service can be a li
       - <img src="../../images/hw3c/2.png" alt="Folder Redirection Example 2" width="400">
 
 #### Optional
-  - You’re welcome to use the online version of Power BI if you prefer, but warning it does have some limitations: [Online Power BI](https://app.powerbi.com/)
+  - You’re welcome to use the online version of Power BI if you prefer, but fair warning before we proceed: quite a few of these steps will be marked differently in the online version. [Online Power BI](https://app.powerbi.com/)
 
 ---
 ---
@@ -52,6 +52,15 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Choose **Import** as your Data Connectivity Mode.
   - Log in using your Azure credentials via **Microsoft Account**.
   - Select and load the external table you created in Homework 3b.
+
+  - **Step 1: PowerBI online users**
+  - Click the green "New Report" button on the landing page.
+  - Click **Get Data,** then type in and select **Azure Synapse Analytics SQL**.
+  - Retrieve your Synapse Server Name (as detailed above) and paste it into the **Server** field.
+  - **Retrieve your SQL database**: in Azure Synapse Studio view, navigate to **Data --> Workspace.**
+  - Copy the name of the SQL database into the "Database" field, and then click "Next".
+  - Once you're in the **"Choose Data"** tab, click on your external table on the left-hand side.
+  - Click **Transform Data.**
   
   - **Transforming Data**:
     - Click on **Table View** (second icon from the top left).
