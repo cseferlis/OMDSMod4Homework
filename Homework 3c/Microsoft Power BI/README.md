@@ -53,12 +53,12 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Log in using your Azure credentials via **Microsoft Account**.
   - Select and load the external table you created in Homework 3b.
 
-  - **Step 1: PowerBI online users**
+#### Import Data: PowerBI online users
   - Click the green "New Report" button on the landing page.
   - Click **Get Data,** then type in and select **Azure Synapse Analytics SQL**.
   - Retrieve your Synapse Server Name (as detailed above) and paste it into the **Server** field.
   - **Retrieve your SQL database**: in Azure Synapse Studio view, navigate to **Data --> Workspace.**
-  - Copy the name of the SQL database into the "Database" field, and then click "Next".
+  - Copy the name of your SQL database into the "Database" field, and then click **Next**.
   - Once you're in the **"Choose Data"** tab, click on your external table on the left-hand side.
   - Click **Transform Data.**
   
@@ -68,6 +68,13 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
       ```DAX
       YEAR_MODEL_ID = fordmotor[YEARTXT] & "_" & fordmotor[MODELTXT]
     - This unique identifier will link your Synapse table with the second dataset.
+   
+  - **Transforming Data: PowerBI online users**:
+    - In the top of your view, navigate to **Add Column** and click **Custom Column.**
+    - Name the column as detailed above, and refer to the "relevant columns" for YEARTXT and MODELTXT. The command for the app should look a bit like this: [YEARTXT] & "_" & [MODELTXT].
+    - Click **OK.** You should be able to see the new column at the end of your table.
+    - Now Click **Create Report.** Feel free to name the semantic model as you wish.
+    - **IMPORTANT:** Please wait until both the semantic model and the report itself are done processing before continuing.
 
 ---
 
@@ -81,6 +88,16 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Open your existing Power BI report.
   - Select **Home → Get Data → Text/CSV**.
   - Locate and select your downloaded CSV file, then click **Load**.
+
+ - **Importing Safercar_data_FORD.csv: PowerBI Online Users**
+  - Navigate to **My workspace** on the left-hand sidebar.
+  - Find your semantic model, and click **Open.** This will give you a direct view of every database interacting with your report.
+  - Once you are in model view, switch from **viewing --> editing** on the right side.
+  - Once the model is done converting, Select **Home → Get Data.**
+  - Click on the **Upload** Button on the left-hand side to upload the Safercar dataset into your model.
+  - Once the upload is finished, click **Next.**
+  - Click **Transform Data**, then click **Save.**
+  - Once the "Loading Data" pop-up completes, proceed with the next steps as documented below.
 
   - **🔗 Establishing Table Relationships:**
     - Switch to the **Model View** (third icon from the left on the side panel).
