@@ -89,7 +89,7 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Select **Home → Get Data → Text/CSV**.
   - Locate and select your downloaded CSV file, then click **Load**.
 
- - **Importing Safercar_data_FORD.csv: PowerBI Online Users**
+#### Importing Safercar_data_FORD.csv: PowerBI Online Users**
   - Navigate to **My workspace** on the left-hand sidebar.
   - Find your semantic model, and click **Open.** This will give you a direct view of every database interacting with your report.
   - Once you are in model view, switch from **viewing --> editing** on the right side.
