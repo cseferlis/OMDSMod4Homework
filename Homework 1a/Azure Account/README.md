@@ -41,7 +41,26 @@ Azure Resource Groups allow you to organize and manage resources like virtual ma
 
 ### Resource Group Requirements:
 - **Name**: Choose a meaningful name, like `Mod4_Homework` or something else you feel is appropriate that will help identify what the RG is for when traversing the Azure Portal.
-- **Region**: ~~Select a region close to you or one recommended by Azure. By default, most resources following this assignment will be deployed via template based on the region you choose for your Resource Group. If you have to cross regions with data, there can be additional charges for data egress, and there could be additional latency.~~ Update 2025.10 - Azure Student Account Limitation: Azure Student accounts have restrictions on which regions you can deploy resources to. Only specific regions are available under the student subscription. For this course, we will use `West US 3 (westus3)` for all homework assignments. This ensures consistency across all students and prevents any issues with regional availability or compatibility.
+- **Region**: Azure Student accounts may have restrictions on which regions you can deploy resources to. The available regions can differ depending on your account and location.
+
+  For this homework, you must use one of the regions allowed by your Azure Student subscription. Follow the steps below to find your available regions:
+
+  1. Navigate to **Azure Policy** > **Authoring** > **Assignments** using the link below:
+
+     https://portal.azure.com/#view/Microsoft_Azure_Policy/PolicyMenuBlade/~/Assignments
+
+  2. Click the assignment named **Allowed resource deployment regions**.
+
+     <img src="../../images/hw1a/policy.png" alt="Screenshot of Azure Policy assignments page" width="400">
+
+  3. Find the **Allowed locations** parameter value.
+
+     <img src="../../images/hw1a/region.png" alt="Screenshot of allowed Azure regions" width="400">
+
+  4. The regions listed under **Allowed locations** are the regions where your account is allowed to deploy resources.
+
+  Use one of the listed regions for every resource you create for the **Module 4 homework**.
+  
 
 ### Step 3: Create a Storage Account
 
@@ -52,7 +71,7 @@ The storage account will be used for data storage in future assignments, serving
 
 ### Storage Account Requirements:
 - **Name**: Choose a unique name for your storage account, such as `StudentDataStorage`.
-- **Region**: Select the same region as your resource group: `West US 3 (westus3)`. **Note: You will want to have all of your resources (services) deployed in the same region whenever possible as this will save Data Egress costs.
+- **Region**: Select the same region as your resource group. **Note: You will want to have all of your resources (services) deployed in the same region whenever possible as this will save Data Egress costs.
 - **Performance**: Choose **Standard**.
 - **Replication**: Select **Locally-redundant storage (LRS)**, which is sufficient for this course.
 
