@@ -92,7 +92,7 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
 #### Importing Safercar_data_FORD.csv: PowerBI Online Users
   - Navigate to **My workspace** on the left-hand sidebar.
   - Find your semantic model, and click **Open.** This will give you a direct view of every database interacting with your report.
-  - Once you are in model view, switch from **viewing --> editing** on the right side.
+  - Once you are in model view, switch from **viewing → editing** on the right side.
   - Once the model is done converting, Select **Home → Get Data.**
   - Click on the **Upload** Button on the left-hand side to upload the Safercar dataset into your model.
   - Once the upload is finished, click **Next.**
