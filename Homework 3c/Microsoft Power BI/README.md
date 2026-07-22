@@ -62,7 +62,7 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Once you're in the **"Choose Data"** tab, click on your external table on the left-hand side.
   - Click **Transform Data.**
   
-  - **Transforming Data**:
+  - **Transforming Data: PowerBI Desktop**:
     - Click on **Table View** (second icon from the top left).
     - Create a **New Column** named `YEAR_MODEL_ID` combining `YEARTXT` and `MODELTXT` with an underscore:
       ```DAX
@@ -89,7 +89,7 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Select **Home → Get Data → Text/CSV**.
   - Locate and select your downloaded CSV file, then click **Load**.
 
-#### Importing Safercar_data_FORD.csv: PowerBI Online Users**
+#### Importing Safercar_data_FORD.csv: PowerBI Online Users
   - Navigate to **My workspace** on the left-hand sidebar.
   - Find your semantic model, and click **Open.** This will give you a direct view of every database interacting with your report.
   - Once you are in model view, switch from **viewing --> editing** on the right side.
@@ -100,7 +100,7 @@ Refer to the [Power BI Report Creation Tutorial](https://learn.microsoft.com/en-
   - Once the "Loading Data" pop-up completes, proceed with the next steps as documented below.
 
   - **🔗 Establishing Table Relationships:**
-    - Switch to the **Model View** (third icon from the left on the side panel).
+    - Switch to the **Model View**, third icon from the left on the side panel. Note that PowerBI online users should already be in Model View.
     - Right-click either of the imported tables, then select **Manage relationships**.
     - Create a **Many-to-One** relationship between your two datasets using the shared column: YEAR_MODEL_ID
 
