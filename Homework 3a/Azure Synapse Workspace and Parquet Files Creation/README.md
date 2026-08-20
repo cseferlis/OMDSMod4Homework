@@ -1,17 +1,17 @@
-# Homework 3a: Azure Synapse Workspace and Parquet Files Creation
+# Tutorial 11.1: Partitioning Data into Parquet Files
 
 ## Objective
 
-In this assignment, we are getting back to our NHTSA data where you will begin working with Azure Synapse Analytics and utilize its SQL Serverless pools powered by a Massively Parallel Processing (MPP) engine. Your task is to prepare your data by converting the NHTSA Complaints File into a `.parquet` format suitable for distributed systems and datasets (sharding). This process simulates the preparation needed to connect to data using Polybase and read directly from the Data Lake. In **Homework 3b**, you will connect to this data as an external table. The main objective of this assignment is to create an **Azure Synapse Workspace** and partition `.parquet` files by manufacturer name.
+In our first Azure assignment, you learned how to copy data over from one data store to another. In this tutorial, we will expand on that framework by showing you how to **transform your data while it's being moved** from one data store to another. For the purposes of this tutorial, you will be returning to the same NHTSA data that you worked with for Azure Homework 1 -- the **NHTSA Complaints** dataset. Your task is to prepare this data by converting the Complaints file from its original `DelimitedText` format into `parquet` format, effectively partitioning the dataset into several smaller datasets based on . This process will make your data more suitable for distributed systems to connect to your data.
 
 ## Reference Documents and Tools
-Navigating the Azure portal and specific interfaces for each service can be a little tricky, especially if you don't have experiences with databases or cloud services. Below are many resources that will help with each activity you will need to perform to complete the assignment. If you don't have experience in these areas, please review these before getting started on the final portion of the assignment. Be sure to read this entire assignment as you will run into issues that are addressed at the bottom.
+Below are many resources that will help with each activity you will need to perform to complete this tutorial. If you don't have experience in these areas, please review these before getting started. Be sure to read this entire assignment as you will run into issues that are addressed at the bottom.
 
 - [Tutorial: Write to a Data Lake](https://learn.microsoft.com/en-us/azure/data-factory/tutorial-data-flow-write-to-lake)
 - More about [Polybase (Data Virtualization)](https://learn.microsoft.com/en-us/sql/relational-databases/polybase/polybase-guide?view=sql-server-ver16)
 - More about [Parquet Files](https://www.databricks.com/glossary/what-is-parquet)
 
-Ensure all steps are completed accurately and verify that the `.parquet` files are correctly partitioned and accessible from your Synapse Workspace. Reach out to your **LF (Learning Facilitator)** if you have any questions or need further assistance.
+Ensure all steps are completed accurately and verify that the `.parquet` files are correctly partitioned! Please consult the images attached in this folder to verify the accuracy of your pipeline. Reach out to your **LF (Learning Facilitator)** if you have any questions or need further assistance.
 
 ## Tasks
 
