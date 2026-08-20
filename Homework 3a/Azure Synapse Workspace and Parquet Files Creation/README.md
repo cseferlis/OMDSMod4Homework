@@ -30,11 +30,14 @@ To link your **Synapse Workspace** to a storage account, it may need to be **upg
 
 ---
 
-### 2. Convert the NHTSA TXT File to Parquet Format
+### 1. Converting from Delimited TXT File to Parquet
 
-Use **Azure Data Factory (ADF) Data Flows** to perform the following steps:
+Welcome back to the Azure Data Factory for one final time! As mentioned at the beginning, our objective is to convert our NHTSA file from Homework 1 into smaller Parquet formats. To do that, we will show you how to use the **Data Flow** tool.
 
-- Hint:
+#### Data Flow in Azure explained
+In Azure Data Factory, Data Flow is a tool that allows you to transform your data as it's being moved through a visual, no-code flow chart. This tool differs greatly from the Copy Data tool because you have far more agency to re-shape the data in the format you're desiring; you may recall in aspects of Azure Homework 1, we used the Copy Data tool just to move the data over. Now we get to make deeper, fundamental changes before the data reaches its final destination!
+
+Here is a visual representation of the Data Flow we will be working with. Keep this image in mind as you work through these next steps:
 - ![Dataflow](../../images/hw3a/dataflow.png)
 
 1. **Set Up a Data Flow**:
