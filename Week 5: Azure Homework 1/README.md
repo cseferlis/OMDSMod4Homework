@@ -72,7 +72,7 @@ Submit the following through Gradescope:
 
 Save screenshots as `.png` or `.jpg`. For help with Gradescope submission, refer to the Blackboard page or ask your Learning Facilitator.
 
-## Where to Look When You Are Stuck
+## Where to Look When You Get Stuck
 
 Every mechanism this assignment needs was covered in a tutorial:
 
