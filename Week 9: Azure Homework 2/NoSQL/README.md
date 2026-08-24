@@ -71,7 +71,7 @@ Cosmos DB bills for **provisioned throughput continuously**, whether you query i
 - If you did not, 400 RU/s runs continuously against your credit. Check **Cost analysis** in the portal and keep an eye on the daily rate.
 - Do not set throughput to Autoscale. It bills up to ten times the floor value.
 
-## Where to Look When You Are Stuck
+## Where to Look When You Get Stuck
 
 | If you are stuck on | Read |
 |---|---|
