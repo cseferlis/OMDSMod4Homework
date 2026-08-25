@@ -1,10 +1,10 @@
 # Week 1.1 Tutorial - Setting up your Azure for Students Account
 
-**Class,**
+**Hello Everybody!**
 
-Welcome to Module 4. Over the next several weeks you will build a working data pipeline in Microsoft Azure. Before any of that can happen, you need an Azure environment to build it in. This tutorial walks you through activating your student subscription, confirming which regions you are permitted to deploy into, and creating the `Resource Group` that will hold every service you create this semester.
+Welcome to Module 4! Over the next several weeks you will build a working data pipeline in Microsoft Azure. Before any of that can happen, you need an Azure environment to build it in. This tutorial walks you through activating your student subscription, confirming which regions you are permitted to deploy into, and creating the `Resource Group` that will hold every service you create this semester.
 
-> **NOTE** - Everything you create in these tutorials will be reused. The Resource Group you create here is the same one you will use in Weeks 2, 3, and 4. Write down the names you choose.
+> **NOTE** - Everything you create in these tutorials will be reused. The Resource Group you create here is the same one you will use in the coming weeks. Write down the names you choose.
 
 > For this course, you will use the "Azure for Students" offer provided by Microsoft. This offer allows for a $100 credit that can be replenished once a year as long as a student email address is being used. You will be expected to manage your budget. By adhering closely to the instructions outlined in the homework assignments, you will remain within the $100 credit limit. However, any expenses incurred beyond this allocation will be your responsibility.
 
