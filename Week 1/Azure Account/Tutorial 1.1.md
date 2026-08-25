@@ -52,8 +52,6 @@ Azure Student subscriptions are governed by a policy that restricts which region
 3. Find the **Allowed locations** parameter value.
 4. Note down one region from that list. You will use it for every resource you create in this module.
 
-For reference, remember to consult "policy.png" and "region.png" in the "images-week-1" folder of this repository.
-
 ### Step 4: Create your Resource Group
 
 A Resource Group is a logical container for related Azure services. Grouping everything for this course together makes it easy to find your work, track spend, and delete everything at once when the semester ends.
