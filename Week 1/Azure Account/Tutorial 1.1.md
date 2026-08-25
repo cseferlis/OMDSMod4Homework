@@ -64,7 +64,7 @@ A Resource Group is a logical container for related Azure services. Grouping eve
 4. Set the **Region** to one of the allowed locations you found in Step 3.
 5. Click **Review + Create**, then **Create**.
 
-<!-- SCREENSHOT: Resource Group creation blade with subscription, name, and region filled in -->
+<img width="1530" height="637" alt="image" src="https://github.com/user-attachments/assets/99605db7-1bf4-4e5a-a91d-e58a5f2d63a3" />
 
 ### Step 5: Open Cloud Shell
 
@@ -79,7 +79,7 @@ A few things worth understanding about it:
 
 Almost everything in these tutorials could also be done by clicking through the portal. We use the command line in places because that is how infrastructure is actually managed in practice — it is repeatable, reviewable, and can be scripted, which pointing and clicking is not.
 
-1. Click the **[>_]** button next to the portal search bar to open Cloud Shell.
+1. Click the **[>_]** button to the right of the Copilot button to open Cloud Shell.
 2. Select **Bash** as the environment, creating storage if prompted. Choose the **Azure for Students** subscription when asked.
 3. Confirm it is working by running the following command:
 
@@ -93,7 +93,7 @@ You should see a block of JSON output that names your subscription. If the wrong
 az account set --subscription "Azure for Students"
 ```
 
-<!-- SCREENSHOT: Cloud Shell pane open in the portal showing az account show output -->
+<img width="1080" height="373" alt="image" src="https://github.com/user-attachments/assets/ee4a8023-d15f-4936-af4b-0bec6b4fa470" />
 
 > **Note**: You may use **Bash** or **PowerShell** by changing the environment in the Cloud Shell pane's dropdown. These tutorials assume Bash.
 
