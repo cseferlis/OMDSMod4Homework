@@ -1,6 +1,6 @@
 # Week 2.1 Tutorial - Setting Up Azure Data Factory
 
-**Class,**
+**Welcome to Week 2!**
 
 In Week 1 you built your Azure environment: a `Resource Group` and a `Storage Account` with containers ready to receive data. What you do not yet have is anything capable of *moving* data. That is the job of `Azure Data Factory` (ADF) — a managed service for building and running data pipelines. Over the rest of this module, ADF is the tool that will pull a file off a public website, unzip it, and load it into a database.
 
