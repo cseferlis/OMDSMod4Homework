@@ -48,8 +48,6 @@ The source file sits on a public NHTSA web server. Data Factory reaches it throu
 5. Click **Test connection**. You want a green success message.
 6. Click **Create**.
 
-<!-- SCREENSHOT: HTTP linked service configuration panel with base URL and Anonymous auth, showing a successful Test connection -->
-
 > **NOTE** - The **Base URL** is the folder, not the file. The specific filename goes in the dataset in Step 3. Splitting it this way means you can point several datasets at the same server without repeating the connection details.
 
 ### Step 2: Create the Azure Blob Storage Linked Service
@@ -69,13 +67,11 @@ This is the destination side — your own storage account from Tutorial 1.2.
 
 4. Click **Test connection**, then **Create**.
 
-<!-- SCREENSHOT: Azure Blob Storage linked service panel with subscription and storage account selected, successful Test connection -->
-
 > **NOTE** - Selecting **From Azure subscription** lets Azure retrieve the account key for you rather than making you paste it in. Never paste a real access key into a screenshot or a submitted document.
 
 Your **Linked services** list should now show both connections.
 
-<!-- SCREENSHOT: Linked services list showing HTTP_NHTSA and AzureBlob_Mod4 -->
+<img width="806" height="298" alt="image" src="https://github.com/user-attachments/assets/c076aba5-95cf-4f6c-8a9f-e3791cdc98ce" />
 
 ### Step 3: Create the Source Dataset
 
@@ -93,8 +89,6 @@ Now point at the specific file.
    - **Compression type**: **None**
 
 6. Click **OK**.
-
-<!-- SCREENSHOT: HTTP binary dataset properties with the relative URL filled in -->
 
 > **NOTE** - **Binary** is the important choice here. A `.zip` is not text and not a table; asking Data Factory to interpret it as delimited text will fail. Binary tells ADF to move the bytes without trying to understand them.
 
@@ -116,15 +110,13 @@ This one describes where the file lands in your storage account.
 
 5. Click **OK**.
 
-<!-- SCREENSHOT: Blob binary dataset properties showing the file path browser with the tutorial-data container selected -->
-
 ### Step 5: Publish
 
 Click **Publish all** in the top toolbar and confirm. A panel lists the pending changes before it deploys them.
 
 > **NOTE** - Your Data Factory has no Git repository attached, so **Publish all** is the only way to save. There is no separate Save button and no draft that survives on its own. Close the tab without publishing and the work is gone.
 
-<!-- SCREENSHOT: Publish all confirmation panel listing the four pending changes -->
+<img width="353" height="357" alt="image" src="https://github.com/user-attachments/assets/85cd1bf2-9e84-4c7e-bf22-1dae02beb196" />
 
 In Tutorial 3.2, you will wire these together with a copy activity and finally move the file.
 
