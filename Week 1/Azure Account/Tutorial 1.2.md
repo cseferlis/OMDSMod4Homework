@@ -1,6 +1,6 @@
 # Week 1.2 Tutorial - Creating a Storage Account
 
-**Class,**
+**Hello Everybody!**
 
 In Tutorial 1.1 you activated your Azure for Students subscription and created a `Resource Group`. That Resource Group is currently empty. Now we add the first service to it: a `Storage Account`. This will act as your data lake for the semester — every file you extract, unzip, and stage in later weeks lands here first.
 
@@ -32,13 +32,12 @@ In Tutorial 1.1 you activated your Azure for Students subscription and created a
 4. Leave every other tab at its defaults.
 5. Click **Review + Create**, then **Create**. Deployment takes about a minute.
 
-<!-- SCREENSHOT: Storage account creation Basics tab with all fields filled -->
 
 > **NOTE** - The storage account name is global. If you get a "name is already taken" error, add a few digits to the end. Write down whatever you settle on; you will type it again in Weeks 2 and 3.
 
 ### Step 2: Understand what you just created
 
-Before creating a container, it is worth knowing the hierarchy, because Data Factory will ask you for each level separately later on:
+Before creating a container, it is worth visualizing the hierarchy, because Data Factory will ask you for each level separately later on:
 
 ```
 Storage Account
@@ -48,7 +47,7 @@ Storage Account
 
 A **blob** is simply a file stored in Azure. **Blob storage** is optimized for unstructured data — exactly what a raw `.zip` download from a government website is.
 
-<!-- SCREENSHOT: Storage account overview page showing the left-hand nav with "Containers" under Data storage -->
+<img width="1225" height="513" alt="image" src="https://github.com/user-attachments/assets/19006697-22ae-4089-a2d0-cef0a9327590" />
 
 ### Step 3: Create a Storage Container
 
@@ -61,7 +60,7 @@ You will create **two** containers. One holds the data you work with in these tu
 5. Click **Create**.
 6. Repeat steps 2–5 to create a second container named `assignment-data`.
 
-<!-- SCREENSHOT: Containers list showing both tutorial-data and assignment-data -->
+<img width="919" height="310" alt="image" src="https://github.com/user-attachments/assets/5a19708d-03d0-4de4-a360-6f36e6caeda9" />
 
 In Week 2, you will create an Azure Data Factory, the service that actually moves data into these containers.
 
