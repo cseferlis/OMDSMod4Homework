@@ -38,7 +38,7 @@ Student accounts sometimes carry more than one subscription (for example, a left
 2. Click your account name in the top right and select **Switch directory** if you belong to more than one tenant.
 3. Search for **Subscriptions** in the top search bar and confirm **Azure for Students** is listed and shows a status of *Active*.
 
-<img width="2589" height="573" alt="image" src="https://github.com/user-attachments/assets/d02b2e79-b998-4e1d-80f2-6ae3b1ac984c" />
+<img width="1294" height="286" alt="image" src="https://github.com/user-attachments/assets/d02b2e79-b998-4e1d-80f2-6ae3b1ac984c" />
 
 ### Step 3: Find your allowed deployment regions
 
@@ -64,7 +64,7 @@ A Resource Group is a logical container for related Azure services. Grouping eve
 4. Set the **Region** to one of the allowed locations you found in Step 3.
 5. Click **Review + Create**, then **Create**.
 
-<img width="1530" height="637" alt="image" src="https://github.com/user-attachments/assets/99605db7-1bf4-4e5a-a91d-e58a5f2d63a3" />
+<img width="765" height="318" alt="image" src="https://github.com/user-attachments/assets/99605db7-1bf4-4e5a-a91d-e58a5f2d63a3" />
 
 ### Step 5: Open Cloud Shell
 
@@ -93,7 +93,7 @@ You should see a block of JSON output that names your subscription. If the wrong
 az account set --subscription "Azure for Students"
 ```
 
-<img width="1080" height="373" alt="image" src="https://github.com/user-attachments/assets/ee4a8023-d15f-4936-af4b-0bec6b4fa470" />
+<img width="540" height="186" alt="image" src="https://github.com/user-attachments/assets/ee4a8023-d15f-4936-af4b-0bec6b4fa470" />
 
 > **Note**: You may use **Bash** or **PowerShell** by changing the environment in the Cloud Shell pane's dropdown. These tutorials assume Bash.
 
