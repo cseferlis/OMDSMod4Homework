@@ -38,7 +38,7 @@ Student accounts sometimes carry more than one subscription (for example, a left
 2. Click your account name in the top right and select **Switch directory** if you belong to more than one tenant.
 3. Search for **Subscriptions** in the top search bar and confirm **Azure for Students** is listed and shows a status of *Active*.
 
-<img width="2604" height="574" alt="image" src="https://github.com/user-attachments/assets/32b320f3-b442-4ef3-8daa-f649a5aa6940" />
+<img width="2589" height="573" alt="image" src="https://github.com/user-attachments/assets/d02b2e79-b998-4e1d-80f2-6ae3b1ac984c" />
 
 ### Step 3: Find your allowed deployment regions
 
