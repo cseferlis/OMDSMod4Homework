@@ -42,7 +42,7 @@ The `formTemplate.sh` script in this repository fills in the parts of `parameter
 
 ```azurecli-interactive
 cd OMDSMod4Homework
-cd 'Week 2'
+cd 'Week 02'
 ```
 
 > **Tip**: If you are unsure what folders are available, use `ls` to list the contents of the current directory.
