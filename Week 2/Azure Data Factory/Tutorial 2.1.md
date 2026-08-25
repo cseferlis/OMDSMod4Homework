@@ -59,8 +59,6 @@ bash ./formTemplate.sh
 
 This sets your subscription to **Azure for Students**, pulls your subscription ID, generates a unique Data Factory name, and writes both into `./template/parameters.json`. You should see a confirmation message that the template and parameters were created successfully.
 
-<!-- SCREENSHOT: Cloud Shell output of formTemplate.sh showing the success message -->
-
 If you are curious what the script changed, you can inspect the file by running the following command:
 
 ```azurecli-interactive
@@ -85,7 +83,8 @@ az deployment group create --resource-group cbsomdsrg --template-file ./template
 
 Deployment takes a couple of minutes. Success looks like a large JSON block with `"provisioningState": "Succeeded"` near the end.
 
-<!-- SCREENSHOT: Cloud Shell showing a successful deployment with provisioningState: Succeeded -->
+<img width="541" height="236" alt="image" src="https://github.com/user-attachments/assets/d72667dd-50db-45c9-b1ac-7dcdc06631f4" />
+
 
 ### Step 4: Troubleshooting
 
@@ -119,7 +118,7 @@ Then retry the deployment command.
 2. You should now see a **Data factory (V2)** resource alongside your storage account. Its name will begin with `datafactory` followed by six random characters.
 3. Click into it and note the **Launch studio** button on the overview page — that is where Tutorial 2.2 begins.
 
-<!-- SCREENSHOT: Resource Group overview showing both the storage account and the new data factory -->
+<img width="929" height="302" alt="image" src="https://github.com/user-attachments/assets/10a9038a-6880-4259-9d3e-6bb2f9720359" />
 
 <!-- SCREENSHOT: Data Factory overview page with the "Launch studio" tile visible -->
 
