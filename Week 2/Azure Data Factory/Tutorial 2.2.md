@@ -1,6 +1,6 @@
 # Week 2.2 Tutorial - Learning Data Factory Studio & Pipelines
 
-**Class,**
+**Hello Everybody!**
 
 In Tutorial 2.1 you deployed an Azure Data Factory, but a Data Factory with nothing in it does nothing. All of the actual building happens in a separate interface called **Data Factory Studio**, which opens in its own browser tab and looks nothing like the rest of the Azure Portal.
 
