@@ -103,7 +103,7 @@ You will build a **second copy activity** to do this, whose source is the zip yo
 
 6. Click **Debug** and watch the Output tab. Both activities should report success.
 
-<!-- SCREENSHOT: Output tab showing both activities with green success status and durations -->
+<img width="569" height="529" alt="image" src="https://github.com/user-attachments/assets/3e64d074-7b83-4aff-b54e-340cddf05ef7" />
 
 ### Step 6: Verify and publish
 
@@ -112,9 +112,8 @@ You will build a **second copy activity** to do this, whose source is the zip yo
 3. Cross-reference the columns against the appendix of the [Recall Reference File](https://static.nhtsa.gov/odi/ffdd/rcl/Import_Instructions_Recalls.pdf). The file has no header row, so the reference document is the only way to know what each field is.
 4. Return to the Studio and click **Publish all**.
 
-<!-- SCREENSHOT: The extracted folder in blob storage showing the .txt file and its size -->
+<img width="1417" height="449" alt="image" src="https://github.com/user-attachments/assets/57a70fb9-37cc-4175-9404-e4e48f4a62a9" />
 
-<!-- SCREENSHOT: Blob preview showing the first several rows of tab-separated recall data -->
 
 ### Troubleshooting
 
