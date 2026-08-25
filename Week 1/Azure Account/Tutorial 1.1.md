@@ -52,9 +52,7 @@ Azure Student subscriptions are governed by a policy that restricts which region
 3. Find the **Allowed locations** parameter value.
 4. Note down one region from that list. You will use it for every resource you create in this module.
 
-<!-- SCREENSHOT: Azure Policy assignments page — can reuse images/hw1a/policy.png -->
-
-<!-- SCREENSHOT: Allowed locations parameter values — can reuse images/hw1a/region.png -->
+For reference, remember to consult "policy.png" and "region.png" in the "images-week-1" folder of this repository.
 
 ### Step 4: Create your Resource Group
 
