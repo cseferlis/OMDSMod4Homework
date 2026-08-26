@@ -84,8 +84,15 @@ Region and capacity errors are the most common failure here — SKUs are not ava
    - **Workload environment**: **Development**
    - **Compute + storage**: click **Configure database** and choose **General Purpose — Serverless**
    - **Backup storage redundancy**: **Locally-redundant backup storage**
+3. Navigate over to **Additional Settings**:
+   
+   - Under **Data Source**, click **Sample.**
+   - A prompt will show appear specifying **AdventureWorksLT** as the sample database. Click **OK.**
+This gives your SQL database the sample data that you need to fanmiliarize yourself with the query editor in Tutorial 4.2.
 
-3. Click **Review + Create**, then **Create**. Allow 5–10 minutes.
+<img width="732" height="464" alt="image" src="https://github.com/user-attachments/assets/4cd33d17-d2df-4554-a764-5290657ddff5" />
+
+4. Click **Review + Create**, then **Create**. Allow 5–10 minutes.
 
 > **NOTE** - The template deploys a **Standard S0** database, while these manual instructions specify **General Purpose — Serverless**. Serverless pauses when idle and is usually the cheaper of the two for coursework, since your database sits unused most of the week. Either will complete the assignment. If you deploy manually, prefer serverless.
 
