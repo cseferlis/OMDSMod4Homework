@@ -1,6 +1,6 @@
 # Azure Homework 1 — Building an ETL Pipeline
 
-**Class,**
+**Hello Once Again,**
 
 Over the past four weeks you have built a complete data pipeline in Microsoft Azure: an environment, a Data Factory, a pipeline that pulls a compressed file from a public web server and unzips it, a SQL database, a typed table, and a schema-mapped load into that table. You did all of it against the NHTSA **Recalls** dataset.
 
