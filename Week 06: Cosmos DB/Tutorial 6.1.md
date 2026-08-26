@@ -46,7 +46,7 @@ A good partition key spreads documents fairly evenly and matches how you query. 
 
 The free tier cannot be enabled after an account exists, so confirm it is switched on *before* deploying rather than discovering the problem afterwards.
 
-1. Open **Cloud Shell** and navigate into the Week 8 tutorial folder.
+1. Open **Cloud Shell** and navigate into the Week 6 tutorial folder.
 2. Run the following command to check the setting:
 
    ```azurecli-interactive
