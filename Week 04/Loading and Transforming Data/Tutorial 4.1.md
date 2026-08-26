@@ -102,7 +102,7 @@ A freshly created SQL server rejects every connection. Two separate permissions 
 5. Under **Exceptions**, check **Allow Azure services and resources to access this server**. This lets *Data Factory* connect in Tutorial 4.3.
 6. Click **Save**.
 
-<!-- SCREENSHOT: SQL server Networking blade showing a client IP rule and the Azure services exception checked -->
+<img width="966" height="648" alt="image" src="https://github.com/user-attachments/assets/ab8bf913-889a-4496-8051-f24e814c1c07" />
 
 > **NOTE** - Your client IP is not permanent. If you move between home and campus, switch to a different Wi-Fi network, or connect through a VPN, your address changes and you will be locked out again. When Tutorial 4.2 refuses to connect and it worked yesterday, come back here and add your new address first. This is the single most common source of confusion in Week 4.
 
@@ -115,7 +115,7 @@ A freshly created SQL server rejects every connection. Two separate permissions 
 
 > **NOTE** - The deployment template also seeds your database with Microsoft's **AdventureWorksLT** sample dataset, so it will not be empty. Those `SalesLT.*` tables are not part of your assignment and can be ignored — though they are genuinely useful for practising queries, which is exactly what you will do in Tutorial 4.2.
 
-### Step 5: Understand what this is costing you
+### Extra Step: Understand what this is costing you
 
 A database bills continuously from the moment it is created, whether or not you query it. This is different from the storage account and Data Factory, which are close to free at your usage level.
 
