@@ -1,6 +1,6 @@
 # Week 4.2 Tutorial - The Azure SQL Query Editor
 
-**Class,**
+**Hello Everybody!**
 
 Tutorial 4.1 gave you a database. This tutorial is about the interface you use to talk to it, and about the single most important thing you will do in that interface: **defining a table**.
 
@@ -33,7 +33,7 @@ If you get a firewall error instead of a login prompt, it will name your current
 
 <!-- SCREENSHOT: The firewall error message shown by Query editor, with the client IP visible -->
 
-### Step 2: Look around
+### IMPORTANT: Look around
 
 The editor has three regions:
 
@@ -45,7 +45,7 @@ The editor has three regions:
 
 > **NOTE** - The Query Editor runs whatever is selected in the pane, or the entire contents if nothing is selected. This is useful — you can keep several statements in the pane and highlight just the one you want — and it is also a good way to accidentally run something you did not intend. Check what is highlighted before clicking Run.
 
-### Step 3: Practise on the sample data
+### Step 2: Practise on the sample data
 
 Before defining your own table, get comfortable with the editor using the sample tables. Type and run the following:
 
@@ -70,7 +70,7 @@ SELECT * FROM SalesLT.Product WHERE Color = 'Black';
 
 `COUNT(*)` and `MAX()` in particular are worth knowing now. After loading data in Tutorial 4.3, `COUNT(*)` is how you confirm all your rows arrived, and `MAX()` on a date column is how you find the most recent date present in a table.
 
-### Step 4: Understand the data before defining the table
+### Step 3: Understand the data before defining the table
 
 Here is the part that actually requires thought.
 
@@ -84,7 +84,7 @@ Two rules to carry into your table definition:
 
 > **NOTE** - The Recalls schema has changed over time; fields have been added in recent years. Read the reference document rather than relying on an older example, and count the columns in the file itself if you are unsure.
 
-### Step 5: Create your table
+### Step 4: Create your table
 
 The statement follows this shape. The first few columns are given as a worked example — you will complete the rest from the reference document.
 
@@ -117,7 +117,7 @@ You should get `0` — the table exists and is empty. An error instead means the
 
 <!-- SCREENSHOT: Query editor showing a successful CREATE TABLE with the new table visible in the object explorer -->
 
-### Step 6: Know how to undo
+### Step 5: Know how to undo
 
 You will almost certainly get a column length or type wrong on the first attempt. Fixing it is easy as long as the table is still empty:
 
