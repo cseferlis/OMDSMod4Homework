@@ -115,7 +115,7 @@ SELECT COUNT(*) FROM <initials>Recalls;
 
 You should get `0` — the table exists and is empty. An error instead means the table was not created; read **Messages** for the reason.
 
-<!-- SCREENSHOT: Query editor showing a successful CREATE TABLE with the new table visible in the object explorer -->
+<img width="882" height="541" alt="image" src="https://github.com/user-attachments/assets/7dfbb58b-acae-48a1-902b-26535794406d" />
 
 ### Step 5: Know how to undo
 
