@@ -1,8 +1,8 @@
 # Week 3.1 Tutorial - Connecting Other Azure Services to Data Factory
 
-**Class,**
+**Welcome to Week 3!**
 
-In Week 2 you deployed a Data Factory and learned your way around the Studio. It still cannot touch a single byte of data, because it has no idea where any data lives. This tutorial fixes that by creating the two `Linked Services` and the two `Datasets` that Tutorial 3.2 will use to actually move a file.
+Last week, you deployed a Data Factory and learned your way around the Studio. It still cannot touch a single byte of data, because it has no idea where any data lives. This tutorial fixes that by creating the two `Linked Services` and the two `Datasets` that Tutorial 3.2 will use to actually move a file.
 
 The dataset we will work with in these tutorials is the NHTSA **Recalls** file.
 
