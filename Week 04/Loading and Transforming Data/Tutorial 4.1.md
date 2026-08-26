@@ -1,6 +1,6 @@
 # Week 4.1 Tutorial - Deploying an Azure SQL Database & Server
 
-**Class,**
+**Welcome to Week 4!**
 
 In Weeks 2 and 3 you built a Data Factory and used it to pull a compressed file off a public web server, land it in blob storage, and unzip it into a `.txt`. That covers the `Extract` and `Load` portions of an `ETL (Extract, Transform, Load)` pipeline. What you have now is a large text file sitting in a container — readable, but not queryable.
 
