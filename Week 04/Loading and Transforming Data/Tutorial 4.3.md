@@ -1,6 +1,6 @@
 # Week 4.3 Tutorial - Managing Data Schemas in Data Factory
 
-**Class,**
+**Hello Everybody!**
 
 You have a `.txt` file in blob storage (Week 3) and an empty typed table in a SQL database (Tutorial 4.2). This tutorial connects them, and in doing so covers the part of ETL that gives people the most trouble: **schema mapping**.
 
