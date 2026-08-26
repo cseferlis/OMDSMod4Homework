@@ -87,7 +87,7 @@ Region and capacity errors are the most common failure here — SKUs are not ava
 3. Navigate over to **Additional Settings**:
    
    - Under **Data Source**, click **Sample.**
-   - A prompt will show appear specifying **AdventureWorksLT** as the sample database. Click **OK.**
+   - A prompt will appear specifying **AdventureWorksLT** as the sample database. Click **OK.**
 This gives your SQL database the sample data that you need to fanmiliarize yourself with the query editor in Tutorial 4.2.
 
 <img width="732" height="464" alt="image" src="https://github.com/user-attachments/assets/4cd33d17-d2df-4554-a764-5290657ddff5" />
