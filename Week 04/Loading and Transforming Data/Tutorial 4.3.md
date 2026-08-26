@@ -106,7 +106,8 @@ If your table does not appear in the dropdown, it was not created successfully â
 4. On the **Source** tab, set **Source dataset** to `RecallTxtDelimited`.
 5. On the **Sink** tab, set **Sink dataset** to `RecallSqlTable`. Leave **Write behavior** as **Insert**.
 
-<!-- SCREENSHOT: Canvas showing three copy activities chained by success arrows -->
+<img width="672" height="236" alt="image" src="https://github.com/user-attachments/assets/30a4ed03-a11d-4a56-9001-6436ffffb58c" />
+
 
 ### Step 5: Map the columns
 
@@ -150,7 +151,7 @@ Try Option A here so you have seen it work. Which approach is right depends on h
 1. Click **Debug**. This copy moves far more data than the earlier ones and will take several minutes.
 2. Watch the **Output** tab, then open the **Monitor** hub and click into the run. The activity detail shows **rows read** and **rows written** â€” these should match.
 
-   <!-- SCREENSHOT: Monitor hub activity detail showing rows read and rows written -->
+<img width="807" height="678" alt="image" src="https://github.com/user-attachments/assets/9c5c104e-3dc3-471a-9d83-bbbe6388041c" />
 
 3. Go to the **Query editor** in the portal and confirm the data landed:
 
