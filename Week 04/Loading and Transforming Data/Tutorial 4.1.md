@@ -93,7 +93,7 @@ Region and capacity errors are the most common failure here — SKUs are not ava
 
 ### Step 3: Open the firewall
 
-A freshly created SQL server rejects every connection. Two separate permissions need granting, and skipping either one produces errors in Tutorial 4.2 that look like the database is broken when it is not.
+A freshly created SQL server rejects every connection. Two separate permissions need granting, and skipping either one produces errors in Tutorial 4.2 that look like the database is broken, even though it isn't.
 
 1. In the portal, open your **SQL server** resource (not the database).
 2. Go to **Security** > **Networking**.
