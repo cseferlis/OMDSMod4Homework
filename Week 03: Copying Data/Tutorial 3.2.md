@@ -1,6 +1,6 @@
 # Week 3.2 Tutorial - Copying Data from One Source to Another
 
-**Class,**
+**Hello Everybody!**
 
 In Tutorial 3.1 you built two linked services and two datasets but did not move anything. Now we connect them. This tutorial covers the `Copy activity` — the single most-used activity in Azure Data Factory and the mechanism behind the `Extract` and `Load` portions of an ETL pipeline.
 
