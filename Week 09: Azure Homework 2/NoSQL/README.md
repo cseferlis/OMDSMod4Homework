@@ -48,7 +48,7 @@ JOIN
 WHERE 
 ```
 
-The `production_companies` array has the same shape as `keywords`. Tutorial 8.3 Step 4 explains the construct.
+The `production_companies` array has the same shape as `keywords`. Tutorial 8.1 Step 4 explains the construct.
 
 ## Submission
 
