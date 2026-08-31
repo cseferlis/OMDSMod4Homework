@@ -2,9 +2,9 @@
 
 **Hello Everyone!**
 
-You have data from Synapse loaded into Power BI. This tutorial turns it into a report: a calculated column, a second table, a relationship between them, and visuals that respond to each other.
+You have data from Synapse loaded into Power BI. With this tutorial, you'll be able to turn it into a report: a calculated column, a second table, a relationship between them, and visuals that respond to each other.
 
-The last of those is the part worth focusing on. A chart is easy. A set of visuals that filter each other when you click one is what makes a dashboard useful, and it depends entirely on getting the data model right first.
+The last of those is the part worth focusing on. A chart is easy. A set of visuals that filter each other when you click one is what makes a dashboard useful, and it depends entirely on *getting the data model right first.*
 
 > **NOTE** - this tutorial builds on Tutorial 12.1. You need Power BI open with your Synapse external table loaded.
 
