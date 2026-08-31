@@ -1,6 +1,6 @@
 # Week 11.1 Tutorial - Creating an Azure Synapse Workspace
 
-**Class,**
+**Welcome to Week 11!**
 
 You have Parquet files sitting in a data lake. Nothing can query them yet.
 
