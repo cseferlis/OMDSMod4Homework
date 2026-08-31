@@ -1,6 +1,6 @@
 # Week 11.2 Tutorial - External Tables and Serverless SQL
 
-**Class,**
+**Hello Everyone!**
 
 In Week 4 you loaded data into a table. Synapse lets you do something different: define a table that **points at files** without copying anything. The files stay in the data lake; the table is a schema definition laid over them.
 
