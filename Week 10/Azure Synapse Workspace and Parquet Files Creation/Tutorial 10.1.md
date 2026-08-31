@@ -1,6 +1,6 @@
 # Week 10.1 Tutorial - Data Lakes and the ADLS Gen2 Upgrade
 
-**Welcome to Week 10!,**
+**Welcome to Week 10!**
 
 For the next three weeks you will build the second half of a modern analytics stack. The pattern is different from Weeks 1–5, and the difference is worth understanding before you touch anything.
 
