@@ -1,6 +1,6 @@
 # Week 12.2 Tutorial - Building an Interactive Power BI Report
 
-**Class,**
+**Hello Everyone!**
 
 You have data from Synapse loaded into Power BI. This tutorial turns it into a report: a calculated column, a second table, a relationship between them, and visuals that respond to each other.
 
