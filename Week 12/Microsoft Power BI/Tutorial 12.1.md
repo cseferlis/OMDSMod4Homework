@@ -1,6 +1,6 @@
 # Week 12.1 Tutorial - Getting Access to Power BI
 
-**Class,**
+**Welcome to Week 12!**
 
 Everything left to do is visualisation, and it happens in **Power BI**. Before any of that, you need Power BI running — which is more involved than it sounds, because **Power BI Desktop does not run on macOS**.
 
