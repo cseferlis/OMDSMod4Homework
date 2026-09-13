@@ -108,9 +108,7 @@ You will build a **second copy activity** to do this, whose source is the zip yo
 ### Step 6: Verify and publish
 
 1. In the portal, browse to **Storage Account** > **Containers** > `tutorial-data` > `extracted`. You should see `FLAT_RCL_POST_2010.txt`, dramatically larger than the archive it came from — the zip is roughly 15 MB, the extracted text file is several hundred MB. Expect the unzip activity to take a few minutes.
-2. Click the file and use **Edit** or **Preview** to confirm it contains readable, tab-separated recall records.
-3. Cross-reference the columns against the appendix of the [Recall Reference File](https://static.nhtsa.gov/odi/ffdd/rcl/Import_Instructions_Recalls.pdf). The file has no header row, so the reference document is the only way to know what each field is.
-4. Return to the Studio and click **Publish all**.
+2. Return to the Studio and click **Publish all**.
 
 <img width="1417" height="449" alt="image" src="https://github.com/user-attachments/assets/57a70fb9-37cc-4175-9404-e4e48f4a62a9" />
 
