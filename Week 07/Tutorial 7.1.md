@@ -127,7 +127,7 @@ Note also that the file is a **JSON array** at its top level. Data Factory will 
 
 4. Click **Test connection**, then **Create**.
 
-   <!-- SCREENSHOT: Cosmos DB linked service with a successful Test connection -->
+<img width="611" height="679" alt="image" src="https://github.com/user-attachments/assets/b77c6fc9-4ee4-4ac1-b1d4-2ef1656c0dc1" />
 
 5. Back in **Author**, create a new dataset: **Azure Cosmos DB for NoSQL**.
 6. Name it `RecallsCosmosSink`, use linked service `CosmosDB_Mod4`, and select the `recalls` collection.
