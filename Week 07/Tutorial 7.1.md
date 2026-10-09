@@ -139,7 +139,7 @@ Note also that the file is a **JSON array** at its top level. Data Factory will 
 3. **Sink**: `RecallsCosmosSink`. Set **Write behavior** to **Insert**.
 4. Click **Debug**.
 
-<!-- SCREENSHOT: Copy activity configured with JSON source and Cosmos sink -->
+<img width="570" height="352" alt="image" src="https://github.com/user-attachments/assets/3f8a1925-0f05-4a13-8c27-453728b2612d" />
 
 This dataset is tiny, so the copy finishes almost instantly. That will not be true of a larger file — at 400 RU/s, Cosmos throttles writes above your provisioned rate, and Data Factory retries. The copy still completes; it just takes longer. You can see those retries in the **Monitor** hub detail.
 
