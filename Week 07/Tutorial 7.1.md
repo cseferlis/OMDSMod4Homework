@@ -90,7 +90,7 @@ Note also that the file is a **JSON array** at its top level. Data Factory will 
 3. Leave throughput unchecked, since the database provides it.
 4. Click **OK**.
 
-<!-- SCREENSHOT: New Container panel showing container id and the /make partition key -->
+<img width="668" height="519" alt="image" src="https://github.com/user-attachments/assets/ee720ed5-d215-40e9-ac92-168340ec7b8a" />
 
 > **NOTE** - The partition key is written with a leading slash because it is a **path into the document**, not a column name. `/make` means "the top-level `make` field." Remember from 8.1 that this cannot be changed later.
 >
