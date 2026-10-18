@@ -6,7 +6,7 @@ You have eight recall documents in a Cosmos DB container. This week's tutorial f
 
 Cosmos DB for NoSQL uses a query language that looks like SQL and is not SQL. The differences are small in appearance and large in consequence, and nearly all of them come down to one fact: a document **can** contain arrays, and a table cell **cannot.**
 
-> **NOTE** - this tutorial builds on Tutorial 8.2. You need the `recalls` container populated with documents.
+> **NOTE** - this tutorial builds on Tutorial 7.1. You need the `recalls` container populated with documents.
 
 ## Reference Documents and Tools
 
