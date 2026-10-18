@@ -47,7 +47,7 @@ That last point deserves emphasis. In a relational database, `JOIN` combines row
 SELECT c.campaignId, c.model FROM recalls AS c WHERE c.status = "Open"
 ```
 
-Note the **double quotes** around the string. Cosmos DB queries are JSON-flavoured; single quotes also work, but double quotes are the convention you will see in the documentation.
+Note the **double quotes** around the string. Cosmos DB queries are JSON-flavored; single quotes also work, but double quotes are the convention you will see in the documentation.
 
 Try a few more:
 
