@@ -112,7 +112,7 @@ You want each output file named after the manufacturer, with a `.parquet` extens
 concat(MAKETXT, '.parquet')
 ```
 
-<!-- SCREENSHOT: Derived Column transformation with the concat expression -->
+<img width="615" height="275" alt="image" src="https://github.com/user-attachments/assets/5ede61f5-d9f9-4e1e-a15a-da828fa75235" />
 
 ### Step 7: Configure the sink
 
