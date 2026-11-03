@@ -64,6 +64,8 @@ Before you begin:
 
 5. Open **Data preview** and confirm you see recall records in sensible columns.
 
+<img width="609" height="382" alt="image" src="https://github.com/user-attachments/assets/0b7746e5-3dc0-445c-a0a7-bba84a929dcb" />
+
 > **NOTE** - If Data preview shows one giant column, the delimiter on the underlying dataset is wrong. Fix it in the dataset before continuing — the Data Flow inherits it.
 
 ### Step 4: Rename the columns
