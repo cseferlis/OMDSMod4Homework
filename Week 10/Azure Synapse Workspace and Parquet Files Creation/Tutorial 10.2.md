@@ -17,7 +17,7 @@ Behind the visual designer, a Data Flow compiles to Apache Spark and runs on a c
 - [Tutorial: Write to a data lake](https://learn.microsoft.com/en-us/azure/data-factory/tutorial-data-flow-write-to-lake)
 - [Sink transformation and file naming options](https://learn.microsoft.com/en-us/azure/data-factory/data-flow-sink)
 - [Recall Reference File](https://static.nhtsa.gov/odi/ffdd/rcl/Import_Instructions_Recalls.pdf)
-
+- [Recall Data Dictionary](https://static.nhtsa.gov/odi/ffdd/rcl/RCL.txt)
 ## Steps to Complete Tutorial 10.2
 
 ### Step 1: Understand what debug mode costs
